@@ -18,7 +18,7 @@ public class Comparator {
         return num2;
     }
 
-    public void EntryPoint() {
+    public void entryPoint() {
         int num1 = this.stream.nextInt();
         int num2 = this.stream.nextInt();
 
