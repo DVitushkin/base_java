@@ -1,10 +1,11 @@
 package foodbasket;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class FoodBasket {
 
-    private final ArrayList<String> basket;
+    private final List<String> basket;
 
     public FoodBasket() {
         basket = new ArrayList<String>();

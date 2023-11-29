@@ -1,6 +1,7 @@
 package prnumfinder;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PrNumFinder
 {
@@ -14,7 +15,7 @@ public class PrNumFinder
         return true;
     }
 
-    public static ArrayList<Integer> getPrimesFromRange(int min, int max) {
+    public static List<Integer> getPrimesFromRange(int min, int max) {
         var result = new ArrayList<Integer>();
         for (int i = min; i < max; i++) {
             if (PrNumFinder.isPrime(i)) {
